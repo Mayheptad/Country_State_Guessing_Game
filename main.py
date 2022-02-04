@@ -80,9 +80,24 @@ us_state_list = us_state_data['state'].to_list()
 correct_guess_list = []
 
 while len(correct_guess_list) < 50:
+
     user_answer = sc.textinput(f'{len(correct_guess_list)}/50 state correct', 'guess another us state name').title()
 
     if user_answer == 'Exit':
+
+        remaining_states = [state for state in us_state_list if state not in correct_guess_list]
+
+        for state in remaining_states:
+            x = us_state_data[us_state_data.state == state].x.item()
+            y = us_state_data[us_state_data.state == state].y.item()
+
+            states_to_learn = {
+                'states': remaining_states,
+                'x': x,
+                'y': y
+            }
+
+            states_to_learn_csv = pd.DataFrame.from_dict(states_to_learn).to_csv('states_to_learn.csv')
         break
 
     if user_answer in us_state_list and user_answer not in correct_guess_list:
@@ -98,23 +113,5 @@ while len(correct_guess_list) < 50:
         messagebox.showinfo("Something Seems Wrong",
                             "Either the name you guessed is not in the US or you have guessed it before "
                             "try again")
-
-remaining_states = []
-x = []
-y = []
-
-for state in us_state_list:
-    if state not in correct_guess_list:
-        remaining_states.append(state)
-        x = us_state_data[us_state_data.state == state].x.item()
-        y = us_state_data[us_state_data.state == state].y.item()
-
-states_to_learn = {
-    'states': remaining_states,
-    'x': x,
-    'y': y
-}
-
-states_to_learn_csv = pd.DataFrame.from_dict(states_to_learn).to_csv('states_to_learn.csv')
 
 sc.mainloop()
