@@ -1,51 +1,50 @@
 ,states,x,y
-0,Alabama,-134,90
-1,Alaska,-134,90
-2,Arizona,-134,90
-3,Arkansas,-134,90
-4,California,-134,90
-5,Colorado,-134,90
-6,Connecticut,-134,90
-7,Delaware,-134,90
-8,Florida,-134,90
-9,Georgia,-134,90
-10,Hawaii,-134,90
-11,Idaho,-134,90
-12,Illinois,-134,90
-13,Indiana,-134,90
-14,Iowa,-134,90
-15,Kansas,-134,90
-16,Kentucky,-134,90
-17,Louisiana,-134,90
-18,Maine,-134,90
-19,Maryland,-134,90
-20,Massachusetts,-134,90
-21,Michigan,-134,90
-22,Minnesota,-134,90
-23,Mississippi,-134,90
-24,Missouri,-134,90
-25,Montana,-134,90
-26,Nebraska,-134,90
-27,Nevada,-134,90
-28,New Hampshire,-134,90
-29,New Jersey,-134,90
-30,New Mexico,-134,90
-31,New York,-134,90
-32,North Carolina,-134,90
-33,North Dakota,-134,90
-34,Ohio,-134,90
-35,Oklahoma,-134,90
-36,Oregon,-134,90
-37,Pennsylvania,-134,90
-38,Rhode Island,-134,90
-39,South Carolina,-134,90
-40,South Dakota,-134,90
-41,Tennessee,-134,90
-42,Texas,-134,90
-43,Utah,-134,90
-44,Vermont,-134,90
-45,Virginia,-134,90
-46,Washington,-134,90
-47,West Virginia,-134,90
-48,Wisconsin,-134,90
-49,Wyoming,-134,90
+0,Alabama,139,-77
+1,Alaska,-204,-170
+2,Arizona,-203,-40
+3,Arkansas,57,-53
+4,California,-297,13
+5,Colorado,-112,20
+6,Connecticut,297,96
+7,Delaware,275,42
+8,Florida,220,-145
+9,Georgia,182,-75
+10,Hawaii,-317,-143
+11,Idaho,-216,122
+12,Illinois,95,37
+13,Indiana,133,39
+14,Iowa,38,65
+15,Kansas,-17,5
+16,Kentucky,149,1
+17,Louisiana,59,-114
+18,Maine,319,164
+19,Maryland,288,27
+20,Massachusetts,312,112
+21,Michigan,148,101
+22,Minnesota,23,135
+23,Mississippi,94,-78
+24,Missouri,49,6
+25,Montana,-141,150
+26,Nebraska,-61,66
+27,Nevada,-257,56
+28,New Hampshire,302,127
+29,New Jersey,282,65
+30,New Mexico,-128,-43
+31,New York,236,104
+32,North Carolina,239,-22
+33,North Dakota,-44,158
+34,Ohio,176,52
+35,Oklahoma,-8,-41
+36,Oregon,-278,138
+37,Pennsylvania,238,72
+38,Rhode Island,318,94
+39,South Carolina,218,-51
+40,South Dakota,-44,109
+41,Tennessee,131,-34
+42,Utah,-189,34
+43,Vermont,282,154
+44,Virginia,234,12
+45,Washington,-257,193
+46,West Virginia,200,20
+47,Wisconsin,83,113
+48,Wyoming,-134,90

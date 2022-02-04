@@ -88,8 +88,10 @@ while len(correct_guess_list) < 50:
         remaining_states = [state for state in us_state_list if state not in correct_guess_list]
 
         for state in remaining_states:
-            x = us_state_data[us_state_data.state == state].x.item()
-            y = us_state_data[us_state_data.state == state].y.item()
+            # x = us_state_data[us_state_data.state == state].x.item()
+            # y = us_state_data[us_state_data.state == state].y.item()
+            x = [row.x for index, row in us_state_data.iterrows() if row.state not in correct_guess_list]
+            y = [row.y for index, row in us_state_data.iterrows() if row.state not in correct_guess_list]
 
             states_to_learn = {
                 'states': remaining_states,
